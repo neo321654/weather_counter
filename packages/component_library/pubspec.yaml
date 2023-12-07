@@ -1,0 +1,17 @@
+name: component_library
+publish_to: none
+
+environment:
+  sdk: ">=2.14.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  main_screen:
+    path: ../features/main_screen
+  flutter_bloc: ^8.0.1
+
+
+
+
+

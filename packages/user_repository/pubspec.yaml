@@ -1,0 +1,15 @@
+name: user_repository
+publish_to: none
+
+environment:
+  sdk: ">=2.14.0 <4.0.0"
+
+dependencies:
+  weather_api:
+    path: ../weather_api
+  key_value_storage:
+    path: ../key_value_storage
+  domain_models:
+    path: ../domain_models
+  rxdart: ^0.27.1
+

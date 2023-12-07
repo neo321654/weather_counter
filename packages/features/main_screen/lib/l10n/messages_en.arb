@@ -1,0 +1,7 @@
+{
+  "title": "Weather Counter",
+  "description_location": "Press the cloud icon to get your location",
+
+  "temperature": "Temperature in Kelvin is : ",
+  "description_count": "You have pushed the button this many times"
+}

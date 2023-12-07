@@ -1,0 +1,28 @@
+name: main_screen
+publish_to: none
+
+environment:
+  sdk: ">=2.14.0 <4.0.0"
+
+
+dependencies:
+  component_library:
+    path: ../../component_library
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  flutter_bloc: ^8.0.1
+  user_repository:
+    path: ../../user_repository
+  domain_models:
+    path: ../../domain_models
+  rxdart: ^0.27.1
+
+
+
+
+flutter:
+  uses-material-design: true
+  generate: true
